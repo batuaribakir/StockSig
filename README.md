@@ -37,3 +37,19 @@ A comprehensive technical analysis tool that automates market analysis using AI-
 git clone https://github.com/batuaribakir/StockSig.git
 cd StockSig
 pip install -r requirements.txt
+```
+## Usage 🖥️
+**CLI Interface**
+python -m interface.cli
+
+**Jupyter Interface**
+from interface.widgets import InteractiveAnalysis
+analyzer = InteractiveAnalysis()
+analyzer.display()
+
+## Tech Stack 🛠️
+**Core:** Python 3.9+
+**Data:** yFinance, Pandas, NumPy
+**TA:** TA-Lib, custom pattern detection
+**Visualization:** Matplotlib, mplfinance
+**UI:** IPython Widgets, Click
