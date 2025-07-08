@@ -35,5 +35,5 @@ A comprehensive technical analysis tool that automates market analysis using AI-
 
 ```bash
 git clone https://github.com/batuaribakir/StockSig.git
-cd stock-analysis-ai
+cd StockSig
 pip install -r requirements.txt
