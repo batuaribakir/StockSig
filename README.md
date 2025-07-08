@@ -40,9 +40,11 @@ pip install -r requirements.txt
 ```
 ## Usage 🖥️
 **CLI Interface**
+
 python -m interface.cli
 
 **Jupyter Interface**
+
 from interface.widgets import InteractiveAnalysis
 analyzer = InteractiveAnalysis()
 analyzer.display()
