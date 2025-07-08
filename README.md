@@ -50,8 +50,13 @@ analyzer = InteractiveAnalysis()
 analyzer.display()
 
 ## Tech Stack 🛠️
+
 **Core:** Python 3.9+
+
 **Data:** yFinance, Pandas, NumPy
+
 **TA:** TA-Lib, custom pattern detection
+
 **Visualization:** Matplotlib, mplfinance
+
 **UI:** IPython Widgets, Click
